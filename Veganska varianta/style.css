@@ -38,3 +38,269 @@ body {
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
 
+/* mobil */
+@media (max-width:540px){
+    .doporucujeme{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 540px;
+        
+    }
+.hlavni-recept{
+    background-image: url("images/salat.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 540px;
+    height: 200px;
+    flex-grow: 4;
+    flex-basis: 100%;
+    color: white;
+    display:flex;
+    flex-direction: column;
+}   
+.recept-kategorie{
+    flex-basis: 50%;
+        display: inline-block; 
+       text-align: left;
+       height: 20px;
+}
+.recept-komentare{
+    text-align: right; 
+   flex-basis: 50%;
+    display: inline-block; 
+    height: 20px;
+  
+    
+}
+.recepty{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        color:white;
+        
+}
+.recept-recept2{
+    background-image: url("images/chlebicek.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        flex-basis: 100%;
+        flex-grow: 1;
+        
+        }
+    .recept-recept3{
+        background-image: url("images/cizrna.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        flex-basis: 100%;
+        flex-grow: 1;
+       }
+    
+    .recept-recept4{
+        background-image: url("images/tacos.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+    
+    .recept-recept5{
+        background-image: url("images/burger.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+    }
+    
+
+/* pc */
+@media (min-width: 960px){
+.doporucujeme{
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+        
+}
+
+.hlavni-recept{
+    background-image: url("images/salat.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+   flex-basis: 100%;
+ color: white;
+ 
+}
+
+.recept-kategorie{
+        flex-basis: 50%;
+        display: inline-block; 
+       text-align: left;
+       height: 20px;
+       
+}
+.recept-komentare{
+        text-align: right; 
+       flex-basis: 50%;
+        display: inline-block; 
+        height: 20px;
+        
+        
+        
+}
+.recept-nazev{
+        flex-basis: 100%;
+        text-align: start;
+        text-align:left;
+        display: inline-block; 
+        padding: .1em 1em;
+        font-size:48px;
+        
+}
+
+.recepty{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+   
+   color: white;
+    
+}
+
+.recept-recept2{
+background-image: url("images/chlebicek.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-basis: 50%;
+    
+    
+    }
+.recept-recept3{
+    background-image: url("images/cizrna.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-basis: 50%;
+   }
+
+.recept-recept4{
+    background-image: url("images/tacos.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-basis: 50%;
+}
+
+.recept-recept5{
+    background-image: url("images/burger.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-basis: 50%;
+}
+}
+/* tablet */
+@media (min-width: 540px) and (max-width: 960px){
+
+
+.doporucujeme{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 540px;
+    
+}
+.hlavni-recept{
+background-image: url("images/salat.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 540px;
+height: 200px;
+flex-grow: 4;
+flex-basis: 100%;
+color: white;
+display:flex;
+flex-direction: column;
+}   
+.recept-kategorie{
+flex-basis: 50%;
+    display: inline-block; 
+   text-align: left;
+   height: 20px;
+   font-family: "Source Sans Pro";
+}
+.recept-komentare{
+text-align: right; 
+flex-basis: 50%;
+display: inline-block; 
+height: 20px;
+font-family: "Source Sans Pro";
+
+}
+.recepty{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    color: white;
+}
+.recept-recept2{
+background-image: url("images/chlebicek.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-basis: 50%;
+    flex-grow: 1;
+    font-family: "Raleway";
+    
+    }
+.recept-recept3{
+    background-image: url("images/cizrna.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-basis: 50%;
+    flex-grow: 1;
+    font-family: "Raleway";
+
+   }
+
+.recept-recept4{
+    background-image: url("images/tacos.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-basis: 50%;
+    flex-grow: 1;
+    font-family: "Raleway";
+
+}
+
+.recept-recept5{
+    background-image: url("images/burger.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-basis: 50%;
+    flex-grow: 1;
+    font-family: "Raleway";
+
+}
+
+}
